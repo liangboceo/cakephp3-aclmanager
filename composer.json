@@ -1,0 +1,27 @@
+{
+    "name": "netease/cakephp3-aclmanager",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "cake3", "plugin", "acl"],
+    "description": "An acl-manager plugin for CakePhp3",
+    "authors": [
+        {
+            "name": "jackson",
+            "email": "173120209@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.16",
+        "cakephp/cakephp": "~4.0",
+        "cakephp/acl": "dev-master"
+    },
+    "require-dev": {
+        "cakephp/cakephp-codesniffer": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "JcPires\\AclManager\\": "src"
+        }
+    },
+    "minimum-stability" : "dev",
+    "prefer-stable": true
+}
