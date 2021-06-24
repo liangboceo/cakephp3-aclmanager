@@ -1,5 +1,5 @@
 {
-    "name": "netease/cakephp3-aclmanager",
+    "name": "jackson/cakephp3-aclmanager",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "cake3", "plugin", "acl"],
     "description": "An acl-manager plugin for CakePhp3",
